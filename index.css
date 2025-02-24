@@ -1,0 +1,243 @@
+
+/* black
+#FFFFF-WHITE
+#F8F5E9-MAIN
+#0177B4-LINKEDIN BLUE
+#1E1E1E-BLACK
+#F44336-RED */
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #F8F5E9;
+}
+
+/* cover */
+
+
+#heroSection{
+    width: 100%;
+    height: 60vh;
+    background-color: #F8F5E9;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #F44336;
+}
+
+.heroSectionContent{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-text{
+    font-weight: 800;
+    font-size: 20px;
+    color: #F44336;
+}
+
+.btns{
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btns:hover{
+    background-color: #F44336;
+}
+
+/* information about me */
+
+/* about me */
+
+#info{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus2{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/* skills */
+
+#skills-info{
+    
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skills .p1{
+    width: 25%;
+    background-color: #F8F5E9;
+    text-align: center;
+    
+}
+
+.skills .p2{
+    text-align: center;
+}
+
+.skills-list{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+#Projects-info{
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+.project1{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    border-radius: 8px;
+    gap: 50px;
+}
+
+.imgdiv{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.project1 .imgdiv img{
+    border-radius: 10px;
+}
+
+
+.p-info{
+    
+    width: 70%;
+}
+
+.p-info h2{
+    background-color: #F8F5E9;
+}
+
+#contact-info{
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    border-radius: 8px;
+    width: fit-content;
+    position: relative;
+    left: 35%;
+    padding: 1%;
+}
+
+#contact-info h1{
+    text-align: center;
+}
+
+.contact-btns{
+    
+    width: fit-content;
+}
+
+.c-btn{
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 90%;
+}
+
+.c-btn:hover{
+    background-color: #F44336;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #nav-bar{
+        width: 100%;
+    }
+
+    .project1{
+        flex-direction: column;
+    }
+    
+    .imgdiv{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+    }
+    
+    .project1 .imgdiv img{
+        border-radius: 10px;
+    }
+    
+    
+    .p-info{
+        
+        width: 100%;
+    }
+    
+    .p-info h2{
+        background-color: #F8F5E9;
+    }
+
+    #contact-info{
+        width: fit-content;
+        
+    }
+
+    #email-btn{
+        width: fit-content;
+    }
+
+    #linkedin-btn{
+        width: 125%;
+    }
+}
